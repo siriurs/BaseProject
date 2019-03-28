@@ -1,0 +1,39 @@
+//
+//  PrefixHeader.pch
+//  BaseProject
+//
+//  Created by bolin on 2019/3/27.
+//  Copyright © 2019 BaseProject. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import "AppDelegate.h"
+
+// 宏
+#import "AppMacro.h"
+#import "APIMacro.h"
+#import "ACMacros.h"
+#import "ToolView.h"
+#import "VendorMarco.h"
+#import "NotificationMacro.h"
+
+
+// 基类
+#import "BasicInfoModel.h"
+#import "BaseViewController.h"
+
+// 工具
+#import "CommonMethods.h"           //常用方法库
+#import "UIView+Additions.h"
+#import "UIView+Extension.h"
+#import <MJExtension/MJExtension.h> //字典模型转换
+
+// 三方库
+
+
+#endif /* PrefixHeader_pch */
+#endif
